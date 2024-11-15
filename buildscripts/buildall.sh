@@ -170,6 +170,7 @@ while [ $# -gt 0 ]; do
 	shift
 done
 
+echo "Target: $target"
 loadarch $arch
 setup_prefix
 build $target
